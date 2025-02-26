@@ -4,7 +4,7 @@ import tourBuddy from '../assets/tourbuddy.png'
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between p-6'>
+    <nav className='max-w-[1440px] mx-auto flex items-center justify-between px-10 py-6'>
         <div>
             <img src={tourBuddy} alt="" />
         </div>

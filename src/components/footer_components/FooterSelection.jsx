@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import tourBuddy from '../../assets/tourbuddy.png'
-import footer_american_flag from "../../assets/footer_american.png";
+import footer_american_flag from "../../assets/footer_eng_flag.png";
 import footer_bangladesh_flag from "../../assets/footer_bangladesh.png";
 import footer_indian_flag from "../../assets/footer_india.png";
 import { FaDollarSign } from "react-icons/fa";
@@ -48,7 +48,7 @@ const customStyles = {
   }),
   menu: (provided) => ({
     ...provided,
-    backgroundColor: "transparent", 
+    backgroundColor: "#13253F", 
     borderRadius: "5px",
     backdropFilter: "blur(8px)",  
   }),
@@ -58,7 +58,7 @@ const customStyles = {
     color: "#fff",
     display: "flex",
     alignItems: "center",
-    padding: "10px",
+    padding: "10px 20px",
   }),
   singleValue: (provided) => ({
     ...provided,
@@ -98,7 +98,7 @@ const FooterSelection = () => {
           )} 
           components={{ SingleValue: customSingleValue }}
           styles={customStyles} 
-          className="w-48 text-white" 
+          className="w-56 text-white" 
         />
       </section>
 
@@ -114,7 +114,7 @@ const FooterSelection = () => {
           )} 
           components={{ SingleValue: customCurrencySingleValue }} 
           styles={customStyles} 
-          className="w-48 text-white" 
+          className="w-56 text-white" 
         />
       </section>
     </div>
