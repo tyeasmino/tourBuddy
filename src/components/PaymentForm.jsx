@@ -11,7 +11,7 @@ const PaymentForm = () => {
         <div className='max-w-4/6 mx-auto'>
           <p className=' text-4xl '>Choose Payment Method</p>
 
-          <div className='w-full flex py-3 justify-between gap-20'>
+          <form className='w-full flex py-3 justify-between gap-20'>
             <div className='w-4/5 flex flex-col gap-5 py-5' action="">
               <div className='flex flex-col gap-2'>
                 <label className='font-semibold' htmlFor="name">Name:</label>
@@ -19,7 +19,7 @@ const PaymentForm = () => {
               </div>
               <div>
                 <label className='font-semibold' htmlFor="transaction">Transaction Id:</label>
-                <input className='w-full bg-[#F4F4F5] px-5 py-3 rounded outline-0 ring-0 focus:border-0 placeholder:font-semibold' placeholder='********' name='transaction' type="password" />
+                <input className='w-full bg-[#F4F4F5] px-5 py-3 rounded outline-0 ring-0 focus:border-0 placeholder:font-semibold' placeholder='********' name='transaction' type="text" />
               </div>
               <div>
                 <label className='font-semibold' htmlFor="phone">Phone Number:</label>
@@ -27,7 +27,7 @@ const PaymentForm = () => {
               </div>
               <div>
                 <label className='font-semibold' htmlFor="pin">Pin Code:</label>
-                <input className='w-full bg-[#F4F4F5] px-5 py-3 rounded outline-0 ring-0 focus:border-0 placeholder:font-semibold' placeholder='******' name='pin' type="password" />
+                <input className='w-full bg-[#F4F4F5] px-5 py-3 rounded outline-0 ring-0 focus:border-0 placeholder:font-semibold' placeholder='******' name='pin' type="text" />
               </div>
               <div className='mt-10'>
                 <label className='font-semibold' htmlFor="method">Select Method:</label>
@@ -63,7 +63,7 @@ const PaymentForm = () => {
             <div className='w-1/5 '>
               <img className='' src={paymentMethod} alt="" />
             </div>
-          </div>
+          </form>
         </div>
 
         <div className='text-center'>
