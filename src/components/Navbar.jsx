@@ -1,5 +1,7 @@
 import React from 'react'
 import tourBuddy from '../assets/tourbuddy.png'
+
+
 const Navbar = () => {
   return (
     <nav className='flex items-center justify-between p-6'>
@@ -14,7 +16,7 @@ const Navbar = () => {
                 <li>Our Packages</li>
                 <li>Most Desired Places</li>
             </ul>
-            <button className='font-bold bg-yellow-400 px-10 py-3 rounded' >Sign In</button>
+            <button className='font-bold text-[16px] w-[140px] h-[50px] bg-[#FFDA32] rounded-[3px]' >Sign In</button>
         </div>
     </nav>
   )

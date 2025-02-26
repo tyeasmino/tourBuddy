@@ -1,8 +1,11 @@
 import React from 'react'
+import FooterSelection from './footer_components/FooterSelection'
 
 const ProfileFooter = () => {
   return (
-    <div>ProfileFooter</div>
+    <div className='bg-[#13253F] '>
+      <FooterSelection />
+    </div>
   )
 }
 

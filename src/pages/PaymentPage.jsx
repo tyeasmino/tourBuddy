@@ -1,13 +1,11 @@
 import React from 'react'
-import PaymentForm from '../components/PaymentForm'
-import PaymentMethod from '../components/PaymentMethod'
+import PaymentForm from '../components/PaymentForm' 
 import PaymentFooter from '../components/PaymentFooter'
 
 const PaymentPage = () => {
   return (
     <section>
-        <PaymentForm />
-        <PaymentMethod />
+        <PaymentForm /> 
         <PaymentFooter />
     </section>
   )
