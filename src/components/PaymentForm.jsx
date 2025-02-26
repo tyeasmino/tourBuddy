@@ -12,7 +12,7 @@ const PaymentForm = () => {
           <p className=' text-4xl '>Choose Payment Method</p>
 
           <div className='w-full flex py-3 justify-between gap-20'>
-            <form className='w-4/5 flex flex-col gap-5 py-5' action="">
+            <div className='w-4/5 flex flex-col gap-5 py-5' action="">
               <div className='flex flex-col gap-2'>
                 <label className='font-semibold' htmlFor="name">Name:</label>
                 <input className='w-full bg-[#F4F4F5] px-5 py-3 rounded outline-0 ring-0 focus:border-0 placeholder:font-semibold' placeholder='Ahnaf Amer' name='name' type="text" />
@@ -59,7 +59,7 @@ const PaymentForm = () => {
 
                 </div>
               </div>
-            </form>
+            </div>
             <div className='w-1/5 '>
               <img className='' src={paymentMethod} alt="" />
             </div>
