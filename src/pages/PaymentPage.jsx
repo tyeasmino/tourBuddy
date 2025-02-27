@@ -7,7 +7,7 @@ const PaymentPage = () => {
   return (
     <section className=''>
       <div className=''>
-        <PaymentForm /> 
+        {/* <PaymentForm />  */}
       </div>
         <PaymentFooter />
     </section>
