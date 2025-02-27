@@ -9,7 +9,7 @@ const PaymentPage = () => {
       <div className=''>
         {/* <PaymentForm />  */}
       </div>
-        <PaymentFooter />
+        {/* <PaymentFooter /> */}
     </section>
   )
 }
