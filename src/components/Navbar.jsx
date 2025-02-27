@@ -4,12 +4,12 @@ import tourBuddy from '../assets/tourbuddy.png'
 
 const Navbar = () => {
   return (
-    <nav className='max-w-[1440px] mx-auto flex items-center justify-between px-10 py-6'>
+    <nav className='max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between px-10 py-6'>
         <div>
             <img src={tourBuddy} alt="" />
         </div>
-        <div className='flex items-center gap-10'>
-            <ul className='font-semibold text-gray-500 flex gap-8'>
+        <div className='flex flex-col md:flex-row items-center gap-3 md:gap-10'>
+            <ul className='font-semibold text-gray-500 flex flex-col md:flex-row gap-2 md:gap-8'>
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Our Most Rated Guides</li>

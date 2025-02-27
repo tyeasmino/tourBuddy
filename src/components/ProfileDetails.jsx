@@ -4,6 +4,9 @@ import Stars from './Stars'
 import { FaRegClock } from "react-icons/fa6";
 import { LiaCarSideSolid } from "react-icons/lia";
 import { TbUsers } from "react-icons/tb";
+import { SiExpensify } from "react-icons/si";
+import { MdOutlineLocalPhone } from "react-icons/md";
+
 
 const ProfileDetails = () => {
   return (
@@ -11,7 +14,7 @@ const ProfileDetails = () => {
       <div className='max-w-4/6 mx-auto py-20'>
         <h1 className='text-[20px]'>Your Selected Guide:</h1>
 
-        <div className='my-10 flex justify-between items-center'>
+        <div className='my-6 flex justify-between items-center'>
           <div className='bg-white rounded-md shadow   flex items-center'>
             <div>
               <img src={raihan} alt="" />
@@ -43,6 +46,17 @@ const ProfileDetails = () => {
                     <span>Family Plan</span>
                   </p>
                 </div>
+                <div className='flex gap-4 items-center text-[14px]'>
+                  <p className='flex items-center gap-1 text-[#495560]'>
+                    <SiExpensify />
+                    <span>3 Years</span>
+                  </p> 
+                  <span className='text-gray-300'>|</span>
+                  <p className='flex items-center gap-1 text-[#495560]'>
+                    <MdOutlineLocalPhone />
+                    <span>+88015425203</span>
+                  </p>
+                </div>
               </div>
               <div className='flex flex-col items-end'>
                 <span className='text-[20px] text-[#7BBCB0] font-bold '>Tk 250.00</span>
@@ -55,7 +69,7 @@ const ProfileDetails = () => {
           </div>
         </div>
 
-        <div className='my-10 flex justify-between items-center'>
+        <div className='my-6 flex justify-between items-center'>
           <div className='flex flex-col gap-3'>
              <div className='flex items-end justify-between w-[250px]'>
               <span className='text-[48px] font-extrabold'>4.0</span>

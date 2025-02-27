@@ -82,7 +82,7 @@ export const ProfileReview = () => {
           </section>
         </div>
 
-        <div className='text-center'>
+        <div className='text-center pb-20'>
           <button className='text-[#7BBCB0] font-bold underline text-[13px]'>View More Comments</button>
         </div>
       </div>
