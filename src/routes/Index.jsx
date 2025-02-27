@@ -9,8 +9,8 @@ const Index = () => {
     <BrowserRouter>
         <Navbar />
         <Routes>
-            <Route path='/profile' element={<GuideProfilePage />} />
-            <Route path='/' element={<PaymentPage />} />
+            <Route path='/' element={<GuideProfilePage />} />
+            <Route path='/payment' element={<PaymentPage />} />
         </Routes>
     </BrowserRouter>
   )
