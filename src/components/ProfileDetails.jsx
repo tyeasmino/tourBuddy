@@ -6,16 +6,17 @@ import { LiaCarSideSolid } from "react-icons/lia";
 import { TbUsers } from "react-icons/tb";
 import { SiExpensify } from "react-icons/si";
 import { MdOutlineLocalPhone } from "react-icons/md";
+import { Link } from 'react-router';
 
 
 const ProfileDetails = () => {
   return (
     <div className='bg-[#F9FAFD]'>
-      <div className='max-w-4/6 mx-auto py-20'>
+      <div className='max-w-[1200px] mx-auto py-20'>
         <h1 className='text-[20px]'>Your Selected Guide:</h1>
 
         <div className='my-6 flex justify-between items-center'>
-          <div className='bg-white rounded-md shadow   flex items-center'>
+          <div className='bg-white w-[870px] rounded-md shadow   flex items-center'>
             <div>
               <img src={raihan} alt="" />
             </div>
@@ -65,7 +66,9 @@ const ProfileDetails = () => {
             </div>
           </div>
           <div>
-            <button className='w-[260px] h-24 rounded-[42px] bg-[#13253F] text-white '>Hire Me</button>
+            <Link to='/payment'>
+              <button className='w-[260px] h-24 rounded-[42px] bg-[#13253F] text-white '>Hire Me</button>
+            </Link>
           </div>
         </div>
 

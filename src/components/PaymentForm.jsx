@@ -6,13 +6,13 @@ import paymentBy from '../assets/ssl2 1.png'
 const PaymentForm = () => {
   return (
     <section className=''>
-      <h1 className='text-[32px] font-semibold max-w-4/6 mx-auto '>Payment</h1>
+      <h1 className='text-[32px] font-semibold max-w-[1200px] mx-auto '>Payment</h1>
       <div className='bg-[#F9FAFD] py-20'>
-        <div className='max-w-4/6 mx-auto'>
+        <div className='max-w-[1200px] mx-auto'>
           <p className=' text-4xl '>Choose Payment Method</p>
 
           <form className='w-full flex py-3 justify-between gap-20'>
-            <div className='w-4/5 flex flex-col gap-5 py-5' action="">
+            <div className='w-[792px] flex flex-col gap-5 py-5' action="">
               <div className='flex flex-col gap-2'>
                 <label className='font-semibold' htmlFor="name">Name:</label>
                 <input className='w-full bg-[#F4F4F5] px-5 py-3 rounded outline-0 ring-0 focus:border-0 placeholder:font-semibold' placeholder='Ahnaf Amer' name='name' type="text" />
@@ -60,7 +60,7 @@ const PaymentForm = () => {
                 </div>
               </div>
             </div>
-            <div className='w-1/5 '>
+            <div className='w-[303px] '>
               <img className='' src={paymentMethod} alt="" />
             </div>
           </form>

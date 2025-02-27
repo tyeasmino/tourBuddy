@@ -14,7 +14,7 @@ import { IoCheckmarkDoneSharp } from 'react-icons/io5'
 export const ProfileReview = () => {
   return (
     <div className='bg-[#F9FAFD]'>
-      <div className='max-w-4/6 mx-auto '>
+      <div className='max-w-[1200px] mx-auto '>
         <h1 className='text-[22px] text-[#1C2B38] font-bold'>Cutomer Review</h1>
 
         <div className='flex justify-end'>
